@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+@theme {
+  --color-custom-blue: #068f8f;
+  --color-dialog-backdrop: rgba(0, 0, 0, 0.75)
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
