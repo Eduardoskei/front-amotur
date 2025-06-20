@@ -3,6 +3,11 @@
 @source '../../node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}';
 @custom-variant dark (&:is(.dark *));
 
+@theme {
+  --color-custom-blue: #068f8f;
+  --color-dialog-backdrop: rgba(0, 0, 0, 0.75)
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
